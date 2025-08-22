@@ -49,4 +49,13 @@ tap.style.display = "none"
       tapItems[index].style.display = "block";
     });
   });
+
+//   gotop Btn
+const goTopBtn = this.document.querySelector("#goTop")
+goTopBtn.addEventListener("click", function(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+})
 });
