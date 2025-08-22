@@ -53,6 +53,7 @@ tap.style.display = "none"
 //   gotop Btn
 const goTopBtn = this.document.querySelector("#goTop")
 goTopBtn.addEventListener("click", function(){
+    
     window.scrollTo({
         top: 0,
         behavior: "smooth"
